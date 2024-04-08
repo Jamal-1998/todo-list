@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.firstdiv {
+    max-width: 450px;
+    margin: 50px auto;
+    background-color: rgb(98, 197, 229);
+    padding: 50px;
+    border-radius: 8px;
+}
+.seconddiv {
+    margin-bottom: 15px;
+}
+#inputtext {
+    width: 81%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#add {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#add:hover {
+    background-color: green;
+}
+ul {
+    list-style-type: none;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor:default;
+}
+li {
+    padding: 10px 10px;
+}
+li.linethrough {
+    text-decoration: line-through;
+    cursor:default;
+    color:red;
+}
+#todolist li span {
+    float: right;
+    font-weight: bold;
+    cursor: default;
+}
